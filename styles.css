@@ -1,0 +1,56 @@
+* ::after ::before {
+    box-sizing: border-box;  
+}
+
+.body{
+    padding: 0 10% 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    background-color: #1f2937;
+    /* color: white; */
+}
+
+.topnav a {
+    color:aliceblue;
+}
+
+.topnav a:hover {
+    background-color: aliceblue;
+    color: #1f2937;
+}
+
+.info {
+    padding: 5% 20% 10%;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    flex: 1 1 auto;  
+    justify-content: center;
+
+}
+
+.card img {
+    border: 5px solid #3882f6;
+    border-radius: 5%;
+}
+
+.slogan {
+    padding: 10%;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    }
+
+
+footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+}
