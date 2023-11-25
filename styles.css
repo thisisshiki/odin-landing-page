@@ -1,28 +1,66 @@
-* ::after ::before {
-    box-sizing: border-box;  
+body{
+    font-family: "Roboto", sans-serif;
 }
 
-.body{
-    padding: 0 10% 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
     background-color: #1f2937;
-    /* color: white; */
 }
 
-.topnav a {
+header a {
     color:aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
 }
 
-.topnav a:hover {
+header a:hover {
     background-color: aliceblue;
     color: #1f2937;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 100px;
+}
+
+.hero h1 {
+    font-size: 46px;
+}
+
+.hero > p {
+    font-size: 18px;
+}
+
+.heroTexts {
+    flex-basis: 980px;
+}
+
+button {
+    padding: 10px 30px 10px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.hero img {
+    padding: 50px;
+}
+
 .info {
     padding: 5% 20% 10%;
+}
+
+.info > h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: #1f2937;
 }
 
 .cards {
@@ -32,7 +70,6 @@
 .card {
     flex: 1 1 auto;  
     justify-content: center;
-
 }
 
 .card img {
@@ -40,8 +77,12 @@
     border-radius: 5%;
 }
 
+.card p {
+    width: 200px;
+}
+
 .slogan {
-    padding: 10%;
+    padding: 10% 20% 10%;
     background-color: #e5e7eb;
     font-size: 36px;
     font-weight: lighter;
@@ -49,8 +90,25 @@
     color: #1f2937;
     }
 
+.signUp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 300px;
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #e5e7eb;
+    text-align: center;
+    font-size: 24px;
+}
+
+.signUpTexts .signUpButton {
+    padding: 150px;
+}
 
 footer {
     color: #e5e7eb;
     background-color: #1f2937;
-}
+    padding: 100px;
+    text-align: center;

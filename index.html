@@ -1,64 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>Kitten Page</title>
 </head>
 
 <body>
-    <header class="topnav">
-        <a id="headerLogo" href="">Kitten Page</a>
-        <a href="">Home</a>
-        <a href="">Contact</a>
-        <a href="">About</a>
-    </header>
+    <div class="container">
 
-    <div class="hero">
-        <h2>This kitten page is awesome</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum illo ut cum atque architecto voluptatem cumque inventore optio libero modi voluptate quos voluptatum ad rem, consectetur doloribus assumenda dolore nisi qui nobis expedita autem? Reprehenderit illum qui dicta optio voluptatibus eius vel corporis iusto, molestias voluptatum vitae beatae esse ipsa quisquam sunt ut ratione eveniet consequatur impedit nihil cumque dolores quos vero voluptate? Minima, repudiandae, aliquid fugiat pariatur, quidem temporibus a iure voluptatum expedita ipsam quam est autem? Aut voluptate quas deserunt, fugiat aliquam dicta eligendi tenetur accusantium officiis praesentium repellat doloremque dolor tempore esse sed non eaque. Obcaecati!</p>
-        <button>Sign up</button>
-        <img src="/images/kittens.jpg" alt="Kittens" width="500" height="350">
-    </div>
+        <header class="topnav">
+            <a class="headerLogo" href="">
+                <box-icon type='solid' name='cat' color="white"></box-icon>
+            </a>
 
-    <div class="info">
-        <h2>Here are some kitten pics:</h2>
-        <div class="cards">
-            <div class="card">
-                <img src="/images/1.jpg" alt="kitten 1" width="200" height="200">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dolore.</p>
+            <div class="headerLinks">
+                <a id="home" href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
             </div>
-            <div class="card">
-                <img src="/images/2.jpg" alt="kitten 2" width="200" height="200">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dolore.</p>
+        </header>
+
+        <div class="hero">
+            <div class="heroTexts">
+                <h1>This kitten page is awesome</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum illo ut cum atque architecto voluptatem cumque inventore optio libero modi voluptate quos voluptatum ad rem, consectetur doloribus assumenda dolore nisi qui nobis expedita autem? Reprehenderit illum qui dicta optio voluptatibus eius vel corporis iusto, molestias voluptatum vitae beatae esse ipsa quisquam sunt ut ratione eveniet consequatur impedit nihil cumque dolores quos vero voluptate? Minima, repudiandae, aliquid fugiat pariatur, quidem temporibus a iure voluptatum expedita ipsam quam est autem? Aut voluptate quas deserunt, fugiat aliquam dicta eligendi tenetur accusantium officiis praesentium repellat doloremque dolor tempore esse sed non eaque. Obcaecati!</p>
+                <button type="button">Sign up</button>
             </div>
-            <div class="card">
-                <img src="/images/3.jpg" alt="kitten 3" width="200" height="200">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dolore.</p>
-            </div>
-            <div class="card">
-                <img src="/images/4.jpg" alt="kitten 4" width="200" height="200">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dolore.</p>
+
+            <div class="heroImage">
+                <img src="/images/kittens.jpg" alt="Kittens" width="500" height="350">
             </div>
         </div>
+
+        <div class="info">
+            <h1>Here are some kitten pics:</h1>
+            <div class="cards">
+                <div class="card">
+                    <img src="/images/1.jpg" alt="kitten 1" width="200" height="200">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dolore.</p>
+                </div>
+                <div class="card">
+                    <img src="/images/2.jpg" alt="kitten 2" width="200" height="200">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dolore.</p>
+                </div>
+                <div class="card">
+                    <img src="/images/3.jpg" alt="kitten 3" width="200" height="200">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dolore.</p>
+                </div>
+                <div class="card">
+                    <img src="/images/4.jpg" alt="kitten 4" width="200" height="200">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dolore.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slogan">
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugit praesentium possimus molestiae commodi qui aut suscipit rem illo, repudiandae cupiditate quas nemo consequatur nisi temporibus delectus dicta cum quisquam."</p>
+            <strong>-Some One</strong>
+        </div>
+
+        <div class="signUp">
+            <div class="signUpTexts"> 
+                <strong>Sign up now to action! It's time!</strong>
+                <p>Sign up to join the community.</p>
+            </div>
+            <div class="signUpButton">
+                <button>Sign Up</button>
+            </div>
+        </div>
+
+        <footer>Copyright @ The Kitten Project 2023</footer>
     </div>
-
-    <div class="slogan">
-        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugit praesentium possimus molestiae commodi qui aut suscipit rem illo, repudiandae cupiditate quas nemo consequatur nisi temporibus delectus dicta cum quisquam."</p>
-        <strong>-Some One</strong>
-    </div>
-
-    <div class="call">
-        <strong>Call to action! It's time</strong>
-        <p>Sign up to join the community.</p>
-        <button>Sign Up</button>
-    </div>
-
-    <footer>Copyright @ The Kitten Project 2023</footer>
-
-    </div>
-
-
 </body>
+
 </html>
